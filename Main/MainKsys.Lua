@@ -118,7 +118,10 @@ tab:Textbox("Key","typehere", true, function(t)
         DiscordLib:Notification("Invalid Key!", "Please Enter a Valid key.", "Okay")
     end
     end)
-        
+    tab:Button("Get Key", function()
+    DiscordLib:Notification("Would You like to Get The Key?", "Discord Invite:\n https://discord.gg/HpPBpgJVyb", "Hell Yeah \n Copy ID!")
+    setclipboard("https://discord.gg/HpPBpgJVyb")
+    end)
 --___________________Script tab___________________________--
 
 --___________________ABOUTUS___________________________--
