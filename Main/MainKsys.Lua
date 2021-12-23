@@ -115,7 +115,7 @@ tab:Textbox("Key","typehere", true, function(t)
             game.Players.LocalPlayer:Kick ("Game not Supported\nby MoonHub")
             end
     else
-        DiscordLib:Notification("Invalid Key!\n Please Enter a Valid key.", "Okay")
+        DiscordLib:Notification("Invalid Key!", "Please Enter a Valid key.", "Okay")
     end
     end)
         
