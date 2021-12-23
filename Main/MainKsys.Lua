@@ -52,7 +52,7 @@ screenGui:Destroy()
 wait(1)
 ----------------DONOTTOUCHUNLESSYOUKNOWWHATYOURDOING-----------------
 local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Cyphrous/Moonless-Ui-Library/main/Main/Source.lua'))(' ')
-local win = DiscordLib:Window("Moonless Hub | Game Name")
+local win = DiscordLib:Window("Moonless Hub | Key System 0.1")
 ----------------DONOTTOUCHUNLESSYOUKNOWWHATYOURDOING-----------------
 
 --[[local serv = win:Server("Preview", "http://www.roblox.com/asset/?id=54479722")
