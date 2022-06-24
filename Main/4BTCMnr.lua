@@ -1,3 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/LuaProjects/main/AutoFarmBitcoinMiner.lua"))()
+pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/DEVIL-loader-remake/main/DEVIL-Hub-Script", true))()
+end)
 
