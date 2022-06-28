@@ -1,6 +1,14 @@
 --// Credits \\--
 --[[ Ezpi#0474 - Creator of this script ]]--
+--[[ Cyph#1001 - Added ANTI AFK MODULE ]]--
 
+--//ANTI AFK\\--
+local vu = game:GetService("VirtualUser")
+       game:GetService("Players").LocalPlayer.Idled:connect(function()
+          vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+          wait(1)
+          vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+       end)
 --// Services \\--
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
@@ -89,5 +97,10 @@ Box_1 = Window:AddBox({
             Box_1:SetValue("X: " .. X .. ", Y: " .. Y)
         end
     end
+})
+Afk_1 = Window:AddColor({
+    text = 'Anti AFK:',
+    flag = "Ezpi_1",
+    color = Color3.new(0, 1, 0),
 })
 Library:Init()
